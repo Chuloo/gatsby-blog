@@ -24,4 +24,4 @@ To generate a production build, simply run:
 ```js
 npm run build
 ```
-This creates a production ready files in the public folder.
+This creates production ready files in the public folder.
