@@ -1,13 +1,27 @@
-# gatsby-starter-default
-The default Gatsby starter
+# Build a Static Blog using Gatsby
+Simply clone the repository, run 
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/)
-
-Install this starter (assuming Gatsby is installed) by running from your CLI:
+```js
+npm install
 ```
-gatsby new gatsby-example-site
+to install all dependencies.
+
+## Install Gatsby
+Install the Gatsby-CLI with
+
+```js
+npm install -g gatsby-cli
+```
+Start Gatsby's development server with:
+
+```js
+gatsby develop
 ```
 
-## Deploy
+## Production Build
+To generate a production build, simply run:
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+```js
+npm run build
+```
+This creates a production ready files in the public folder.
